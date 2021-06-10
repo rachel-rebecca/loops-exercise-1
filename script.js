@@ -51,8 +51,8 @@ for (let number of numbers) {
     console.log(number);
 }
 
-console.log("Extended Challenge")
-//Jim helped me out and came up with the else/if method. I put it inside of a while loop with breaks.
+console.log("Extended Challenge using a while loop and for loop")
+//Jim Carpenter helped me out and came up with the else/if method. I put it inside of a while loop with breaks.
 let str = prompt("Type a word that is 1 to 9 letters long:");
 
 while (str.length < 10) {
@@ -88,3 +88,8 @@ while (str.length < 10) {
         break;
     }
 }
+// for loop. Also worked on this with Jim Carpenter
+for (var i = str.length; i < 10; i++) {
+    str = " " + str;
+} console.log(str);
+
